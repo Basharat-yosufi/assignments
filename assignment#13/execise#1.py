@@ -8,8 +8,8 @@
 
 
 def print_message(message, repeat_count=1):
-  
-    print(message*repeat_count) 
-
-print_message("hello world",)
+  x=1
+  while x< repeat_count:
+    print(message)
+    x +=1
 print_message("hello world",5)
